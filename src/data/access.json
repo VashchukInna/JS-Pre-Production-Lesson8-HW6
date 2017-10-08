@@ -1,0 +1,39 @@
+[
+  {
+    "path": "#/",
+    "accessByExecutants": "adminAndUser"
+  },
+  {
+    "path": "#/admin",
+    "accessByExecutants": [
+      "admin"
+    ]
+  },
+  {
+    "path": "#/about",
+    "accessByExecutants": [
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/contacts",
+    "accessByExecutants": [
+      "admin",
+      "user"
+    ]
+  },
+  {
+    "path": "#/login",
+    "accessByExecutants": [
+      "unauthorized"
+    ]
+  },
+  {
+    "path": "#/logout",
+    "accessByExecutants": [
+      "admin",
+      "user"
+    ]
+  }
+]
